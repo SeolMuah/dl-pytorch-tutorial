@@ -31,6 +31,7 @@ uv run jupyter notebook
 | 번호 | 파일 | 주제 | 핵심 내용 |
 |------|------|------|----------|
 | 01 | [01_DNN_개념.ipynb](01_DNN_개념.ipynb) | DNN (심층 신경망) | 퍼셉트론, 활성화 함수, 순전파, 손실 함수, 역전파, PyTorch 기초 및 DNN 구현 |
+| 02 | [02_DNN_훈련.ipynb](02_DNN_훈련.ipynb) | DNN 훈련 기법 | 배치/경사하강법, DataLoader, 과적합 방지(정규화·Dropout·BatchNorm), Early Stopping & LR Scheduler, 옵티마이저 비교, 종합 실습 |
 
 > 교안은 계속 추가될 예정입니다.
 
@@ -47,10 +48,11 @@ uv run jupyter notebook
 
 ```
 .
-├── 01_DNN_개념.ipynb      # 교안 노트북
-├── images/                # 교안에서 사용하는 이미지
-│   └── 01_dnn/            #   01번 교안 이미지
-├── main.py
+├── 01_DNN_개념.ipynb          # 01번 교안 노트북
+├── 02_DNN_훈련.ipynb          # 02번 교안 노트북
+├── images/                    # 교안에서 사용하는 이미지
+│   ├── 01_dnn/                #   01번 교안 이미지
+│   └── 02_dnn_training/       #   02번 교안 이미지
 ├── pyproject.toml
 └── uv.lock
 ```
